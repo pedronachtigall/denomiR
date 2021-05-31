@@ -94,7 +94,7 @@ The denomiR was designed to work with the clipped reads in fastq format as input
 Please notice, that the adapter must be trimmed. The user must use any tool available to perform this task.
 
 The user must also indicate the PATH to the RFAM and miRNAdb `-db path/to/denomiR/mirDB/`.
-Please, notice that the current DB is available in a zip file format. Decompress this file before running ```unzip mirDB.zip```
+Please, notice that the current DB is available in a zip file format. Decompress this file before running denomiR with the command ```unzip mirDB.zip```.
 The current DB available is designed for Metazoa species, but the user can design a DB specific to their lineage and replace the files in the mirDB folder.
 
 ## Output
