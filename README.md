@@ -24,7 +24,7 @@
 
 ### Installation
 
-If the user has all requirements installed an working properly properly, you just need to do the following steps:
+If the user has all requirements installed an properly working, you just need to do the following steps (please, change "/.bash_profile" to "/.bashrc" if it is your bash source):
 ```
 git clone https://github.com/pedronachtigall/denomiR.git
 echo "export PATH=$PATH:$(pwd)/denomiR/bin/" >> ~/.bash_profile
@@ -40,8 +40,7 @@ source ~/.bash_profile
 conda activate denomiR_env
 ```
 
-It may be needed to apply "execution permission" to all bin executables:
-  - ```chmod 777 path/to/denomiR/bin/*```
+It may be needed to apply "execution permission" to all bin executables: ```chmod +x denomiR/bin/*```
 
 ## Usage
 ```
