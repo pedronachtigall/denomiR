@@ -128,3 +128,6 @@ To report bugs, to ask for help and to give any feedback, please contact **Pedro
 
 ## Cite
 
+If you use denomiR, please cite:
+
+Nachtigall et al. (2022). Differences in PLA2 Constitution Distinguish the Venom of Two Endemic Brazilian Mountain Lanceheads, Bothrops cotiara and Bothrops fonsecai. Toxins. DOI:[https://doi.org/10.3390/toxins14040237](https://doi.org/10.3390/toxins14040237)
