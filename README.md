@@ -4,6 +4,8 @@
 # denomiR
 **De no**vo identification of **miR**NAs. It is an experimental approach designed to identify miRNAs in small RNA-seq data from species with no genome available to be used as reference.
 
+It was not thoroughly tested and we give no warranty of confident results, please use it with caution.
+
 ## Pipeline
 
 - collapse 100% identical reads
@@ -24,14 +26,14 @@
 
 ### Installation
 
-If the user has all requirements installed an properly working, you just need to do the following steps (please, change "/.bash_profile" to "/.bashrc" if it is your bash source):
+If the user has all requirements installed an properly working, you just need to do the following steps (please, change ```/.bash_profile``` to ```/.bashrc``` if it is your bash source):
 ```
 git clone https://github.com/pedronachtigall/denomiR.git
 echo "export PATH=$PATH:$(pwd)/denomiR/bin/" >> ~/.bash_profile
 source ~/.bash_profile
 ```
 
-Alternatively, the user can install all requirements through conda manager as follow:
+Alternatively, the user can install all requirements through conda manager as follow (please, change ```/.bash_profile``` to ```/.bashrc``` if it is your bash source):
 ```
 conda create --name denomiR_env -c bioconda python=3.7 biopython numpy matplotlib cd-hit blast
 git clone https://github.com/pedronachtigall/denomiR.git
@@ -127,3 +129,7 @@ denomiR_output/
 To report bugs, to ask for help and to give any feedback, please contact **Pedro G. Nachtigall**: pedronachtigall@gmail.com
 
 ## Cite
+
+If you use denomiR in your analysis, please cite the following (which is the manuscript that denomiR was designed to be used):
+
+Nachtigall et al. (2022) Differences in PLA2 Constitution Distinguish the Venom of Two Endemic Brazilian Mountain Lanceheads, Bothrops cotiara and Bothrops fonsecai. Toxins, 14(4), 237. DOI:[https://doi.org/10.3390/toxins14040237](https://doi.org/10.3390/toxins14040237)
